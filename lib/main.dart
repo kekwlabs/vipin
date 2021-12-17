@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'models/servers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -109,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
+        connect();
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
