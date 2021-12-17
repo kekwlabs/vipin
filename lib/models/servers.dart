@@ -91,6 +91,8 @@ class Vpns with ChangeNotifier {
 
   void disconnect() {
     FlutterOpenvpn.stopVPN();
+    time = 0;
+    timeString = "00:00:00";
     _connectedVpn;
     _connectionState = 'Not Connected';
     notifyListeners();
