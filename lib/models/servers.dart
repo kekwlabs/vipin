@@ -17,13 +17,13 @@ class Vpn with ChangeNotifier {
   final String username;
 
   Vpn({
-    required this.password,
-    required this.username,
-    required this.id,
-    required this.name,
-    required this.country,
-    required this.countryCode,
-    required this.ovpn,
+    @required this.password,
+    @required this.username,
+    @required this.id,
+    @required this.name,
+    @required this.country,
+    @required this.countryCode,
+    @required this.ovpn,
     this.status = 'Not Connected',
   });
 }
@@ -31,7 +31,7 @@ class Vpn with ChangeNotifier {
 class Vpns with ChangeNotifier {
   int time = 0;
   String timeString = '00:00:00';
-  late List<Vpn> _vpns;
+  List<Vpn> _vpns;
   List<Vpn> get vpns => [..._vpns];
   String _connectionState = 'Not Connected';
   String get connectionState => _connectionState;
@@ -40,7 +40,7 @@ class Vpns with ChangeNotifier {
     notifyListeners();
   }
 
-  late Vpn _connectedVpn;
+  Vpn _connectedVpn;
   Vpn get connectedVpn => _connectedVpn;
 
   set connectedVpn(Vpn vpn) {
@@ -62,7 +62,7 @@ class Vpns with ChangeNotifier {
             id: v['id'],
             name: v['name'],
             country: v['country'],
-            countryCode: v['flagLogo'],
+            countryCode: v['countryCode'],
             username: v['username'],
             password: v['password'],
             ovpn: v['configScriptTCP']);

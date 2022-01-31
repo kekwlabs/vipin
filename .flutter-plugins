@@ -1,9 +1,13 @@
 # This is a generated file; do not edit or check into version control.
+firebase_admob=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_admob-0.11.2\\
 flutter_openvpn=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_openvpn-0.2.0\\
+path_provider=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider-1.6.28\\
 path_provider_linux=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_linux-0.0.1+2\\
+path_provider_macos=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_macos-0.0.4+8\\
 path_provider_windows=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\path_provider_windows-0.0.5\\
 shared_preferences=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences-0.5.12+4\\
 shared_preferences_linux=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_linux-0.0.2+4\\
 shared_preferences_macos=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_macos-0.0.1+11\\
 shared_preferences_web=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_web-0.1.2+7\\
 shared_preferences_windows=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\shared_preferences_windows-0.0.2+3\\
+sqflite=C:\\Flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\sqflite-2.0.1\\
