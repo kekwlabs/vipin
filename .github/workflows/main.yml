@@ -20,11 +20,6 @@ jobs:
     - run: flutter --version
     - run: flutter pub get
     - run: flutter build apk
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: silversabres.${{ github.sha }}.android
-        path: build/app/outputs/flutter-apk/app-release.apk
     
   build_ios:
     runs-on: macos-latest
@@ -40,8 +35,3 @@ jobs:
     - run: flutter --version
     - run: flutter pub get
     - run: flutter build ios --release --no-codesign
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: silversabres.${{ github.sha }}.ios
-        path: build/ios/iphoneos/Runner.app
